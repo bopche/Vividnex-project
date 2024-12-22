@@ -2,12 +2,190 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../Css/index.css">
     <link rel="stylesheet" href="../Css/IOSCertification.css">
+    <link rel="'stylesheet" href="../Css/gstregistration.css">
+
+    <style>
+        .faq-container {
+            width: 100%;
+            height: 30vh;
+            background-color: #f4f4f4e2;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        #final-deliverable-main-container {
+            border-color: #F4F4F4;
+            color: #1A1A1A;
+            padding-top: 20px;
+        }
+
+        #final-deliverable-flex-container {
+            display: flex;
+            width: 100%;
+        }
+
+        #final-deliverable-main-container h2:after {
+            content: '';
+            background: #FFD712;
+            width: 35px;
+            height: 4px;
+            display: block;
+            margin: 10px auto 25px;
+        }
+
+        .final-deliverable-section {
+            /*flex-grow: 1;*/
+            font-size: 14px;
+            margin: -2px;
+            line-height: 18px;
+            vertical-align: middle;
+            display: inline-block;
+            margin-bottom: 10px;
+            min-height: 32px;
+            padding: 0 36px;
+        }
+
+        #final-deliverable-flex-container .final-deliverable-section .subheadingtitle {
+            font-size: 16px;
+            height: 50px;
+            font-weight: bold;
+            text-align: Left;
+        }
+
+        .final-deliverable-section img {
+            height: 15px;
+            width: 15px;
+        }
+
+        #final-deliverable-main-container p {
+            line-height: 30px;
+            font-size: 14px;
+            min-height: 40px;
+            color: #333333;
+            line-height: 1.5384616;
+            font-weight: 400;
+            word-wrap: break-word;
+            text-indent: -24px;
+        }
+
+        @media screen and (min-width: 701px) {
+            #final-deliverable-main-container h2 {
+                font-size: 15px;
+                line-height: 1.5384616;
+                font-weight: 400;
+                text-align: center;
+                font-size: 27px;
+                line-height: 45px;
+                letter-spacing: 0.025em;
+                text-transform: uppercase;
+                font-weight: 700;
+                padding: 6px 0;
+            }
+
+            #final-deliverable-main-container {
+                padding-left: 100px;
+                padding-right: 100px;
+                padding-bottom: 21px;
+            }
+
+            #final-deliverable-flex-container {
+                flex-wrap: nowrap;
+                justify-content: space-around;
+            }
+        }
+
+        @media screen and (max-width: 700px) {
+            #final-deliverable-main-container h2 {
+                font-size: 19px;
+                line-height: 25px;
+                width: 75%;
+                margin-right: auto;
+                margin-left: auto;
+                text-align: center;
+                font-weight: 700;
+            }
+
+            #final-deliverable-flex-container {
+                flex-wrap: wrap;
+                padding-bottom: 20px;
+                margin-right: 30px;
+                margin-left: 30px;
+                width: auto;
+            }
+
+            .final-deliverable-section {
+                font-size: 14px;
+                line-height: 18px;
+                min-height: 32px;
+                padding-top: 0px;
+                padding-right: 36px;
+                padding-bottom: 0px;
+                padding-left: 36px;
+            }
+        }
+
+        @media screen and (max-width: 360px) {
+            #final-deliverable-main-container p {
+                line-height: 30px;
+                font-size: 13px;
+                min-height: 40px;
+                color: #333333;
+                line-height: 1.5384616;
+                font-weight: 400;
+                word-wrap: break-word;
+                text-indent: -24px;
+            }
+        }
+
+        .msme-card-container {
+            display: flex;
+            justify-content: space-evenly;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 40px;
+        }
+
+        .msme-card {
+            padding: 10px 20px;
+        }
+
+        .msme-card h2 {
+            font-size: 20px;
+            padding: 10px 15px;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .msme-card p {
+            font-size: 15px;
+            padding: 5px 15px;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .msme-card-img {
+            width: 25%;
+            border-radius: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        .hrs {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            margin-top: 60px;
+        }
+    </style>
+
+
 
 </head>
 
@@ -92,10 +270,9 @@
         </ul>
 
     </nav>
-
     <div class="head">
-        <h2>ISO Certification<br>
-            &nbsp; &nbsp; @ Rs. 4,999 *</h2>
+        <h2>MSME Registration<br>
+            &nbsp;&nbsp; @ Rs. 1,999 *</h2>
         <h5>In 3 days&nbsp;&nbsp;.&nbsp;&nbsp;From Any where&nbsp;&nbsp;.&nbsp; &nbsp;At a Single Click</h5>
         <img class="arrow-img" src="../Images/arrow-banner-desktop1-removebg-preview.png">
 
@@ -146,17 +323,16 @@
                 <option value="Mrs.">Mrs.</option>
 
             </select>
-
             <input type="text" id="inputfield1" placeholder="Full name" required>
             <input type="text" id="inputfield2" placeholder="E-mail Id" required>
             <input type="text" id="inputfield2" placeholder="Mobile">
             <input type="text" id="inputfield2" placeholder="City">
             <input type="text" id="inputfield2" placeholder="Looking for*" required>
-            
             <button class="btn1" type="button">GET STARTED NOW</button>
 
         </div>
     </div>
+
     <div class="head2-container">
 
         <div class="card-container-1">
@@ -228,6 +404,163 @@
 
         </div>
 
+    </div>
+    <h1 class="heading-1">BENEFITS OF MSME REGISTRATION</h1>
+    <img class="hr-1" src="../Images/minus.png">
+
+    <div class="msme-card-container">
+
+        <div class="msme-card">
+            <img class="msme-card-img" src="../Images/msme-1.png">
+            <h2>100% Collateral-Free Automatic Loans</h2>
+            <p>12 Months Moratorium/Waiver on Loan<br>
+                Repayment.Fully covered under Govt. <br>
+                guarantee. No guarantee fee will be charged.<br>
+                Scheme available till 31st Oct, 2020.</p>
+
+        </div>
+
+        <div class="msme-card">
+            <img class="msme-card-img" src="../Images/msme-2.png">
+            <h2>Rs. 50,000 cr. Equity Funding for MSMEs</h2>
+            <p>Govt. will provide equity funding/invest in<br>
+                shares of MSMEs with growth potential through<br>
+                Fund of Funds scheme.</p>
+
+        </div>
+
+        <div class="msme-card">
+            <img class="msme-card-img" src="../Images/msme-3.png">
+            <h2>Support for Listing at Stock Exchanges</h2>
+            <p>Govt. will help to expand MSME size as well as<br>
+                capacity,will encourage MSMEs to get listed on <br>
+                main board of Stock Exchanges.</p>
+
+        </div>
+
+    </div>
+    <hr class="hrs">
+
+    
+    <div class="msme-card-container">
+
+        <div class="msme-card">
+            <img class="msme-card-img" src="../Images/msme-4.png">
+            <h2>100% Collateral-Free Automatic Loans</h2>
+            <p>12 Months Moratorium/Waiver on Loan<br>
+                Repayment.Fully covered under Govt. <br>
+                guarantee. No guarantee fee will be charged.<br>
+                Scheme available till 31st Oct, 2020.</p>
+
+        </div>
+
+        <div class="msme-card">
+            <img class="msme-card-img" src="../Images/msme-5.png">
+            <h2>Rs. 50,000 cr. Equity Funding for MSMEs</h2>
+            <p>Govt. will provide equity funding/invest in<br>
+                shares of MSMEs with growth potential through<br>
+                Fund of Funds scheme.</p>
+
+        </div>
+
+        <div class="msme-card">
+            <img class="msme-card-img" src="../Images/msme-6.png">
+            <h2>Support for Listing at Stock Exchanges</h2>
+            <p>Govt. will help to expand MSME size as well as<br>
+                capacity,will encourage MSMEs to get listed on <br>
+                main board of Stock Exchanges.</p>
+
+        </div>
+
+    </div>
+    <hr class="hrs">
+
+    <div class="msme-card-container">
+
+        <div class="msme-card">
+            <img class="msme-card-img" src="../Images/msme-7.png">
+            <h2>100% Collateral-Free Automatic Loans</h2>
+            <p>12 Months Moratorium/Waiver on Loan<br>
+                Repayment.Fully covered under Govt. <br>
+                guarantee. No guarantee fee will be charged.<br>
+                Scheme available till 31st Oct, 2020.</p>
+
+        </div>
+
+        <div class="msme-card">
+            <img class="msme-card-img" src="../Images/msme-9.png">
+            <h2>Rs. 50,000 cr. Equity Funding for MSMEs</h2>
+            <p>Govt. will provide equity funding/invest in<br>
+                shares of MSMEs with growth potential through<br>
+                Fund of Funds scheme.</p>
+
+        </div>
+
+        <div class="msme-card">
+            <img class="msme-card-img" src="../Images/msme-8.png">
+            <h2>Support for Listing at Stock Exchanges</h2>
+            <p>Govt. will help to expand MSME size as well as<br>
+                capacity,will encourage MSMEs to get listed on <br>
+                main board of Stock Exchanges.</p>
+
+        </div>
+
+    </div>
+
+
+
+    <div id="final-deliverable-main-container">
+        <h1 class="heading-1">DOCUMENT REQUIRED FOR MSME REGISTRATION</h1>
+        <img class="hr-1" src="../Images/minus.png">
+        <div id="final-deliverable-flex-container">
+            <div class="final-deliverable-section">
+                <p class="subheadingtitle">Pvt. Ltd. /Public Ltd./OPC </p>
+                <p>
+                    <img src="../Images/check-mark.png" alt="checked icon">&nbsp;&nbsp;&nbsp;Company PAN card
+
+                </p>
+                <p>
+                    <img src="../Images/check-mark.png" alt="checked icon">&nbsp;&nbsp;&nbsp;MOA, AOA & Incorporation
+                    Certificate
+                </p>
+                <p>
+                    <img src="../Images/check-mark.png" alt="checked icon">&nbsp;&nbsp;&nbsp;Company Address Proof
+                </p>
+            </div>
+            <div class="final-deliverable-section">
+                <p class="subheadingtitle">LLP & Partnership Firm</p>
+                <p>
+                    <img src="../Images/check-mark.png" alt="checked icon">&nbsp;&nbsp;&nbsp;Firm PAN card
+
+                </p>
+                <p>
+                    <img src="../Images/check-mark.png" alt="checked icon">&nbsp;&nbsp;&nbsp;LLP Agreement/
+                    Partnership deed
+
+                </p>
+                <p>
+                    <img src="../Images/check-mark.png" alt="checked icon">&nbsp;&nbsp;&nbsp;Firm Address Proof
+
+                </p>
+            </div>
+            <div class="final-deliverable-section">
+                <p class="subheadingtitle">Proprietorship Firm</p>
+                <p>
+                    <img src="../Images/check-mark.png" alt="checked icon">&nbsp;&nbsp;&nbsp;Proprietor&#39;s PAN
+                    card
+
+                </p>
+                <p>
+                    <img src="../Images/check-mark.png" alt="checked icon">&nbsp;&nbsp;&nbsp;Shop Act / Ghumasta
+                    License
+
+                </p>
+                <p>
+                    <img src="../Images/check-mark.png" alt="checked icon">&nbsp;&nbsp;&nbsp;Address proof of Firm
+
+                </p>
+            </div>
+        </div>
     </div>
 
 
@@ -305,8 +638,7 @@
         </div>
     </div>
 
-    <h1 class="heading-1">180,000+ STARTUPS TRUST US</h1>
-    <img class="hr-1" src="../Images/minus.png">
+    <img class="capture4" src="../Images/Capture4.PNG">
     <div class="capture-container">
         <div class="slide img">
             <img class="user-img" src="../Images/profile (1).png" alt="Image 1">
@@ -334,63 +666,40 @@
     <img class="hr-1" src="../Images/minus.png">
     <div class="faq-container">
 
-        <button class="accordion">1. What is ISO 9001: 2015?</button>
+        <button class="accordion">1. What are the benefits of GST in India?</button>
         <div class="panel">
-            <p>ISO means International Standard Organization. ISO prescribes a set of requirements, if maintained<br>
-                business organization, ISO certificate is issued to such organization.<br>
-                ISO 9001:2015 is the International Standard for Quality Management Systems (QMS). It provides a set
-                of<br>
-                requirements that helps management of business to achieve customer satisfaction.</p>
+            <p>
+                Many Indirect taxeslike VAT, Excise Duty, Service Tax, CST, Import- Export, Octroi, Luxury Tax and<br>
+                Entertainment Tax is now only require a GST registration. This will result in less compliances and
+                help<br>
+                businesses to focus more into their business.</p>
         </div>
 
-        <button class="accordion">2. What is benefit of ISO Certification in India?</button>
+        <button class="accordion">2. What are the GST Rates in India?</button>
         <div class="panel">
-            <p>ISO certification gives the confidence that, your business has the capability to provide HIGH QUALITY<br>
-                goods and services to its customers. Improves public image, Inspires confidence of the market and
-                helps<br>
-                in growth of business, Helps in getting Govt. Tenders, Provides eligibility to enter global markets,<br>
-                Good marketing tool.</p>
+            <p>The GST rate will depend on the type of goods and services. Currently, the slab rates are 5%, 12%,
+                18%<br>
+                and 28%. Gold and rough diamonds do not currently fall under GST and will be taxed at 3% and 0.25%</p>
         </div>
-
-        <button class="accordion">3. How many days it takes to complete ISO 9001 process in India?</button>
-        <div class="panel">
-            <p>It depends upon the size of the business and current level of management practices. Typically it may take
-                from 5 to 90 working days.</p>
-        </div>
-
-        <button class="accordion">4. Who can apply for ISO 9001 standards?</button>
-        <div class="panel">
-            <p>ISO 9001 standard is applicable to companies of any size or sector. Any business like Proprietorship<br>
-                firm, Partnership, Private Limited Companies, LLP, One Person company, Public Ltd., Trusts, NGO,<br>
-                Hospitals, Govt. Agencies.</p>
-        </div>
-
-        <button class="accordion">5. What are ISO certification bodies?</button>
-        <div class="panel">
-            <p>They are the registered organizations eligible to issue ISO certificates to Companies adhering to ISO
-                standards.</p>
-        </div>
-
-
-
 
 
     </div>
 
+
     <div id="footer-mobile-responsive">
 
 
-        <p><a target="_blank" href="https://www.startupwala.com/">Home</a></p>
-        <p><a target="_blank" href="/about-us.html">About</a></p>
-        <p><a target="_blank" href="/blog">Blog</a></p>
-        <p><a target="_blank" href="/reviews.html">Reviews</a></p>
-        <p><a target="_blank" href="/careers.html">Careers</a></p>
-        <p><a target="_blank" href="/payments.php">Payment</a></p>
+        <p><a target="_blank" href="../index.html">Home</a></p>
+        <p><a target="_blank" href="../about-us.html">About</a></p>
+        <p><a target="_blank" href="../blog">Blog</a></p>
+        <p><a target="_blank" href="../reviews.html">Reviews</a></p>
+        <p><a target="_blank" href="../careers.html">Careers</a></p>
+        <p><a target="_blank" href="../payments.php">Payment</a></p>
         <p><a target="_blank" href="/contact-us.html">Contact</a></p>
-        <p><a target="_blank" href="https://bit.ly/StartupwalaApp"><img id="google-play-logo"
-                    src="./Images/google_play_logo.png" alt="google-play-icon"></a></p>
+        <p><a target="_blank" href="../"><img id="google-play-logo"
+                    src="../Images/google_play_logo.png" alt="google-play-icon"></a></p>
         <p><a target="_blank" href="https://itunes.apple.com/in/app/startupwala/id1457871112?mt=8"><img
-                    id="google-play-logo" src="./appstore.png" alt="Apple-play-icon"></a></p>
+                    id="google-play-logo" src="../appstore.png" alt="Apple-play-icon"></a></p>
         <div id="socail-img">
             <a target="_blank" href="https://www.facebook.com/Startupwala"><img src="/images/fb_logo.png"
                     alt="fb-icon"></a>
@@ -481,13 +790,13 @@
 
         <div id="footer-navigation">
             <div id="footer-lower-menu">
-                <p><a target="_blank" href="../index.html">Home</a></p>
-                <p><a target="_blank" href="../About.html">About</a></p>
-                <p><a target="_blank" href="../blog">Blog</a></p>
-                <p><a target="_blank" href="../reviews.html">Reviews</a></p>
-                <p><a target="_blank" href="../Careers.html">Careers</a></p>
+                <p><a target="_blank" href="https://www.startupwala.com/">Home</a></p>
+                <p><a target="_blank" href="./Pages/About.html">About</a></p>
+                <p><a target="_blank" href="/blog">Blog</a></p>
+                <p><a target="_blank" href="/reviews.html">Reviews</a></p>
+                <p><a target="_blank" href="/careers.html">Careers</a></p>
                 <p><a target="_blank" href="/payments.php">Payment</a></p>
-                <p><a target="_blank" href="../Contact.html">Contact</a></p>
+                <p><a target="_blank" href="/contact-us.html">Contact</a></p>
                 <span id="policy-disclaimer"><a target="_blank" href="/disclaimer.html">Disclaimer</a></span><br />
                 <hr>
                 <div id="desktop-footer-bottom">
@@ -516,7 +825,9 @@
 
 
 
+
     <script src="../Js/IOSCertificate.js"></script>
+
 </body>
 
 </html>
