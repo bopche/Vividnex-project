@@ -10,167 +10,170 @@
 
 
 .navbar {
-  background-color: #f4f4f4e2;
-
+    background-color: #e3e0e0;
+   
 }
 
 .nav-logo {
-  width: 15%;
-  margin-left: 40px;
-  padding-top: 20px;
+    width: 15%;
+    margin-left: 40px;
+    padding-top: 20px;
 }
 
 .nav-list {
-  list-style: none;
-  display: flex;
-  justify-content: center;
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
 
 .nav-list li {
-  margin: 0 15px;
+    margin: 0 15px;
 }
 
 .nav-list a {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  padding: 10px 10px;
-  display: block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 10px;
+    display: block;
 }
 
 .dropdown {
-  position: relative;
-
+    position: relative;
+   
 }
 
 
 .dropbtn {
-  color: white;
-  text-decoration: none;
-  display: block;
-  font-size: 13px;
-  margin-top: -40px;
-  float: right;
-  font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+    margin-top: -40px;
+    float: right;
+    
 }
 
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #ffffff;
-  width: 345px;
-  padding: 15px 10px;
-  z-index: 1;
-  margin-top: 10px;
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    width: 345px;
+    padding: 15px 10px;
+    z-index: 1;
+    margin-top: 10px;
 
 }
 
 .dropdown-content a {
-  padding: 12px 15px;
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  display: block;
-  font-size: 12px;
+    padding: 12px 15px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
 }
 
 
 .dropdown:hover .dropdown-content {
-  display: block;
+    display: block;
 }
 
 
-
+.dropdown-content a:hover {
+    background-color: #575757;
+}
 
 .verticalline {
-  border-left: 1px solid black;
-  height: 160px;
-  float: left;
-  margin-top: -160px;
-  margin-left: 53%;
+    border-left: 1px solid black;
+    height: 160px;
+    float: left;
+    margin-top: -160px;
+    margin-left: 53%;
 }
 
 
 .dropdown-content1 {
-  display: none;
-  position: absolute;
-  background-color: #ffffff;
-  width: 380px;
-  padding: 10px;
-  z-index: 1;
-  margin-top: 10px;
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    width: 380px;
+    padding: 10px;
+    z-index: 1;
+    margin-top: 10px;
 
 }
 
 .dropdown-content1 a {
-  padding: 12px 16px;
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  display: block;
-  font-size: 12px;
+    padding: 12px 16px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
 }
 
 
 .dropdown:hover .dropdown-content1 {
-  display: block;
+    display: block;
 }
 
 
+.dropdown-content1 a:hover {
+    background-color: #575757;
+}
 
 .verticalline1 {
-  border-left: 1px solid black;
-  height: 300px;
-  float: left;
-  margin-top: -270px;
-  margin-left: 52%;
+    border-left: 1px solid black;
+    height: 300px;
+    float: left;
+    margin-top: -270px;
+    margin-left: 52%;
 }
 
 .dropdown-content2 {
-  display: none;
-  position: absolute;
-  background-color: #ffffff;
-  width: 200px;
-  padding: 10px;
-  z-index: 1;
-  margin-top: 10px;
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    width: 200px;
+    padding: 10px;
+    z-index: 1;
+    margin-top: 10px;
 
 }
 
 .dropdown-content2 a {
-  padding: 12px 16px;
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  display: block;
-  font-size: 12px;
+    padding: 12px 16px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
 }
 
 
 .dropdown:hover .dropdown-content2 {
-  display: block;
-}
-
-.addeditems {
-  margin-top: -30px;
-  float: right;
-  margin-right: -450px;
-  padding-left: 70px;
-}
-
-.add-item {
-  font-size: 11px;
-  padding: 0px;
-  margin-top: -30px;
-  font-family: 'Roboto', sans-serif;
+    display: block;
 }
 
 
+
+.addeditems{
+margin-top: -30px;
+float: right;
+margin-right: -450px;
+padding-left: 70px;
+}
+.add-item{
+   font-size: 11px;
+   padding: 0px;
+   margin-top: -30px;
+}
 
 header
 {
   display: flex;
-  justify-content:left;
+  justify-content: center;
   background-color:#FDA700;
   color: white;
-  padding-left: 110px;
+  padding-left: 40px;
   padding-right: 40px;
   padding-top: 57px;
   padding-bottom: 60px;
@@ -179,11 +182,11 @@ header
 
 header h1
 {
-  font-size: 46px;
-  line-height: 30px;
+  font-size: 36px;
+  line-height: 40px;
   font-weight: bold;
   margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 #price  
 {
@@ -235,8 +238,8 @@ header h1
 
 #aero-img-desktop-container img
 {
-      margin-top: 210px;
-    transform: rotate(10deg);
+   margin-top: 173px;
+    transform: rotate(7deg);
     margin-left: -9px;
 }
 
@@ -245,7 +248,7 @@ header h1
    line-height: 18px;
 }
 
-form
+/*form
 {
   width: 380px;
   background-color: #EDEFF2;
@@ -261,6 +264,7 @@ form
 textarea, input, select
 {
   outline: none;
+  -webkit-appearance: none;
   padding:12px;
   border:none;
   border-radius: 1px;
@@ -270,8 +274,8 @@ input, select, textarea, button
 {
     font-family:inherit;
     font-size: 13px;
-}
-*/
+}*/
+
 #form-header
 {
   text-align: center;
@@ -334,6 +338,7 @@ input, select, textarea, button
   font-size: 13px;
   line-height: 1.5384616;
   border-radius: 3px;
+  -webkit-user-select: none;
   font-weight: 700;
   letter-spacing: 0.08em;
   box-shadow: 0 2px 0 #a36b00;
@@ -398,7 +403,7 @@ section
 #free-container-box-header
 {
    background-color: #fff;
-   color: #004CD2;
+   color:black;
 }
 
 
@@ -426,11 +431,11 @@ padding-right:15px;
 {
     #aero-img-desktop-container img
     {
-            width: 300px;
-    transform: rotate(19deg);
-    margin-top: 229px;
+        width: 300px;
+		transform: rotate(16deg);
+		margin-top: 189px;
     }
-    #free-section-middle-one
+	#free-section-middle-one
 {
 padding-left:15px;
 padding-right:15px;
@@ -479,20 +484,20 @@ padding-right:15px;
 #professional {
     display: none;
 }
-  #header
+  header
   {
      flex-direction: column;
      padding-bottom: 20px;
   }
 
-  #header h1
+  header h1
   {
-     font-size: 60px;
+     font-size: 30px;
   }
 
   #pricetag, #price, header s
   {
-     font-size: 35px;
+     font-size: 25px;
   }
 #free-section-middle-one
 {
@@ -503,7 +508,7 @@ padding-right:0px;
   {
         padding-left: 0px;
     padding-right: 0px;
-    font-size: 63px;
+    font-size: 13px !important;
     font-weight: bold;
   }
 
@@ -543,9 +548,9 @@ padding-right:0px;
 
   #free-container-box-header
   {
-      background-color:yellow; 
+      background-color:#FDA700; 
       color: white;
-      font-weight: normal;
+	  font-weight: normal !important;
       letter-spacing: 0.025em;
   }
 
@@ -575,7 +580,7 @@ padding-right:0px;
   header h1
   {
       margin-bottom: 0px;
-          margin-top: 20px;
+	      margin-top: 20px;
   }
 }
 
@@ -622,7 +627,7 @@ padding-right:0px;
    #free-container-box-header
   {
         font-size: 13px;
-        font-weight: normal;
+		font-weight: normal;
   }
  #center-statment
   {
@@ -632,7 +637,7 @@ padding-right:0px;
   #call-now-small-screen-banner
   {
      font-size: 13px;
-     margin-top: -30px;
+	 margin-top: -30px;
   }
 }
 
@@ -642,22 +647,22 @@ padding-right:0px;
     {
        margin-left: 0px;
        margin-right: 0px;
-       padding-left:0px;
-       padding-right:0px
+	   padding-left:0px;
+	   padding-right:0px
     }
 
     #free-section-plus-sign
     {
       padding-left: 0px;
-      padding-right: 0px;
-      
+	  padding-right: 0px;
+	  
     }
 
     #free-section-or-conjuction
     {
-     padding-left: 10px;
+     /* padding-left: 10px;
       padding-right: 20px;
-      
+	  */
     }
 }
 
@@ -709,7 +714,7 @@ padding-right:15px;
 {
        
    #aero-img-mobile-container img {
-    right: -5px;
+	right: -5px;
     width: 51px;
     height: 197px;
     transform: rotate(4deg);
@@ -721,7 +726,7 @@ padding-right:15px;
 {
        
    #aero-img-mobile-container img {
-    right: -5px;
+	right: -5px;
     width: 51px;
     height: 197px;
     transform: rotate(4deg);
@@ -733,13 +738,54 @@ padding-right:15px;
 {
        
    #aero-img-mobile-container img {
-    right: -5px;
+	right: -5px;
     width: 46px;
     height: 178px;
     transform: rotate(5deg);
     margin-top: 1px;
 }
+
+#center-statment-penalty
+{
+    margin-bottom: 15px !important;
 }
+
+#startupwala-featured-in-elements
+{ 
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#startupwala-featured-in-container
+{
+    padding-right: 16px;
+    padding-left: 16px;
+}
+#startupwala-featured-in-elements div
+{
+    margin-left: -3%;
+    margin-top: 9px;
+    height: 35px;
+}
+#startupwala-featured-in-elements p
+{
+    margin-top: 6px;
+    font-size: 10px;
+    margin-left: 6px;
+   margin-right: 25px !important; 
+    margin-left: -10%;
+}
+#startupwala-featured-in-elements img
+{
+   margin-left: 0px;
+}
+
+#startupwala-featured-in-elements
+{
+  justify-content: flex-start!important;
+}
+
+
 startupwala-featured-in-container
   {
     display: block;
@@ -771,15 +817,15 @@ startupwala-featured-in-container
 
   }
 
-  #startupwala-featured-in-elements img
+  startupwala-featured-in-elements img
   {
-    height: 16px;
-    margin-top: 15px;
+    /*height: 16px;
+    margin-top: 15px;*/
   }
 
   #economics-times-icon
   {
-  margin-left: -20px;
+  /*  margin-left: -20px;*/
   }
 
   @media screen and (max-width: 1000px)
@@ -873,6 +919,141 @@ startupwala-featured-in-container
       justify-content: flex-start!important;
     }
   }
+}
+startupwala-featured-in-container
+  {
+    display: block;
+    padding-right: 32px;
+    padding-left: 32px;
+    background-color:yelLOW;
+  }
+
+  startupwala-featured-in-elements
+  { 
+    height: 52px;
+    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
+    justify-content: space-around;
+    white-space: nowrap;
+    overflow-x: auto;
+  }
+  startupwala-featured-in-elements div
+  {
+      display: flex;
+      justify-content: start;
+  }
+  startupwala-featured-in-elements p
+  {
+    color:black;
+    margin-top: 10px;
+    font-size: 13px;
+
+  }
+
+  startupwala-featured-in-elements img
+  {
+    /*height: 16px;
+    margin-top: 15px;*/
+  }
+
+  #economics-times-icon
+  {
+  /*  margin-left: -20px;*/
+  }
+
+  @media screen and (max-width: 1000px)
+  {
+    startupwala-featured-in-elements img
+    {
+      height: 13px;
+      margin-top: 18px;
+    }
+    startupwala-featured-in-elements p
+    {
+      margin-top: 2px;
+      font-size: 13px;
+    }
+    
+  }
+  @media screen and (max-width: 998px)
+  {
+    #startupwala-featured-in-elements
+    {
+          justify-content: unset!important;
+
+    }
+    #startupwala-featured-in-elements p
+    {
+        margin-top: 9px;
+        font-size: 13px;
+    }
+  }
+  @media screen and (max-width: 840px)
+  {
+    #startupwala-featured-in-elements
+    {
+       justify-content: space-between !important;
+    }
+    #startupwala-featured-in-elements p
+    {
+        margin-top: 13px;
+        font-size: 10px;
+    }
+    #economics-times-icon
+    {
+      margin-left: 0px;
+    }
+    #startupwala-featured-in-elements img
+    {
+      margin-left: 40px;
+    }
+     #forbes-icon
+    {
+      margin-left: -11px;
+    }
+
+
+  } 
+
+  @media screen and (max-width: 600px)
+  {
+    #startupwala-featured-in-elements
+    { 
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    #startupwala-featured-in-container
+    {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+    #startupwala-featured-in-elements div
+    {
+        margin-left: -3%;
+        margin-top: 9px;
+        height: 35px;
+    }
+    #startupwala-featured-in-elements p
+    {
+        margin-top: 6px;
+        font-size: 10px;
+        margin-left: 6px;
+       margin-right: 25px !important; 
+        margin-left: -10%;
+    }
+    #startupwala-featured-in-elements img
+    {
+       margin-left: 0px;
+    }
+    
+    #startupwala-featured-in-elements
+    {
+      justify-content: flex-start!important;
+    }
+  }
+
   #how-it-works-main-container
   { 
       background-color: #F4F4F4;
@@ -1109,6 +1290,140 @@ startupwala-featured-in-container
           margin-right: 0%;
      }
   }
+
+  
+
+  #final-deliverable-main-container 
+  {
+      border-color: #F4F4F4;
+      color: #1A1A1A;
+      padding-top: 20px;
+  }
+
+  #final-deliverable-flex-container 
+  {
+      display: flex;
+      width: 100%;
+  }
+
+  #final-deliverable-main-container h2:after 
+  {
+      content: '';
+      background: #FFD712;
+      width: 35px;
+      height: 4px;
+      display: block;
+      margin: 10px auto 25px;
+  }
+
+  .final-deliverable-section 
+  {
+      flex-grow: 1;
+      font-size: 14px;
+      margin: -2px;
+      line-height: 18px;
+      vertical-align: middle;
+      display: inline-block;
+      margin-bottom: 10px;
+      min-height: 32px;
+      padding: 0 36px;
+  }
+
+  .final-deliverable-section img 
+  {
+      height: 15px;
+      width: 15px;
+  }
+
+  #final-deliverable-main-container p 
+  {
+      line-height: 30px;
+      font-size: 14px;
+      min-height: 40px;
+      color: #333333;
+      line-height: 1.5384616;
+      font-weight: 400;
+      word-wrap: break-word;
+      text-indent: -24px;
+  }
+
+  @media  screen and (min-width: 701px) 
+  {
+      #final-deliverable-main-container h2 
+      {
+          font-size: 15px;
+          line-height: 1.5384616;
+          font-weight: 400;
+          text-align: center;
+          font-size: 27px;
+          line-height: 45px;
+          letter-spacing: 0.025em;
+          text-transform: uppercase;
+          font-weight: 700;
+          padding: 6px 0;
+      }
+
+      #final-deliverable-main-container 
+      {
+          padding-left: 100px;
+          padding-right: 100px;
+          padding-bottom: 21px;
+      }
+
+      #final-deliverable-flex-container 
+      {
+          flex-wrap: nowrap;
+      }
+  }
+  @media  screen and (max-width: 700px) 
+  {
+      #final-deliverable-main-container h2 
+      {
+          font-size: 19px;
+          line-height: 25px;
+          width: 75%;
+          margin-right: auto;
+          margin-left: auto;
+          text-align: center;
+          font-weight: 700;
+      }
+
+      #final-deliverable-flex-container 
+      {
+          flex-wrap: wrap;
+          padding-bottom: 20px;
+          margin-right: 30px;
+          margin-left: 30px;
+          width: auto;
+      }
+
+      .final-deliverable-section
+      {
+          font-size: 14px;
+          line-height: 18px;
+          min-height: 32px;
+          padding-top: 0px;
+          padding-right: 36px;
+          padding-bottom: 0px;
+          padding-left: 36px;
+      }
+  }
+
+  @media  screen and (max-width: 360px) 
+  {
+      #final-deliverable-main-container p 
+      {
+          line-height: 30px;
+          font-size: 13px;
+          min-height: 40px;
+          color: #333333;
+          line-height: 1.5384616;
+          font-weight: 400;
+          word-wrap: break-word;
+          text-indent: -24px;
+      }
+  }
+
   @media  screen and (min-width: 801px) 
   {
        .why-startupwala-single-section 
@@ -1373,6 +1688,7 @@ startupwala-featured-in-container
              margin-right:  -20px;
          }
    }
+
    #startupwala-client-images-container
     {
       display: flex;
@@ -1771,24 +2087,49 @@ startupwala-featured-in-container
 }
 #question-answer-section-header
 {
-  background-color: white;
+  background-color: #e3e0e0;
+}
+
+.accordion {
+  background-color:beige;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 70%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  margin-bottom: 15px;
+
+}
+
+.active, .accordion:hover {
+  background-color:rgb(255, 255, 0);
+}
+
+.accordion:after {
+  content: '\002B';
+  color:black;
+  font-weight: bold;
+  float: right;
+  margin:5px;
+}
+
+.active:after {
+  content: "\2212";
 }
 
 .panel {
-  padding: 30px;
-  display: none;
+  padding: 0 30px;
   background-color: white;
+  max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   width: 70%;
   margin-left: 222px;
-  border:#1A1A1A;
+  border: none;
   margin-bottom: 15px;
   height: 110px;
-}
-#question-answer-section-header{
-  background-color:#fff;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  padding-bottom: 20px;
 }
