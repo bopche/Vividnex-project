@@ -280,7 +280,9 @@
   margin-top: -50px;
 
 }
-
+.card-1 p{
+  font-family: 'Roboto', sans-serif; 
+}
 .card1-img {
   width: 40px;
   padding-top: 11px;
@@ -298,19 +300,22 @@
   margin-left: 21%;
   margin-top: -46px;
 }
-
+.card-2 p{
+  font-family: 'Roboto', sans-serif; 
+}
 .card-2 p {
   font-size: 15px;
   margin-top: -40px;
   margin-left: 80px;
-
 }
 
 .card-3 {
   margin-left: 38%;
   margin-top: -43px;
 }
-
+.card-3 p{
+  font-family: 'Roboto', sans-serif; 
+}
 .card-3 p {
   font-size: 15px;
   margin-top: -40px;
@@ -329,12 +334,16 @@
   margin-left: 80px;
 
 }
-
+.card-4 p{
+  font-family: 'Roboto', sans-serif; 
+}
 .card-5 {
   margin-left: 76%;
   margin-top: -44px;
 }
-
+.card-5 p{
+  font-family: 'Roboto', sans-serif; 
+}
 .card-5 p {
   font-size: 15px;
   margin-top: -40px;
@@ -362,9 +371,9 @@
 .slider {
   position: relative;
   width: 100%;
-  height: 65vh;
+  height: 80vh;
   margin: auto;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   overflow: hidden;
   background-color: #ffffff;
 }
@@ -409,8 +418,8 @@
 .coma {
   width: 13%;
   margin-left: 22%;
-  margin-top: -260px;
-  position: absolute;
+  margin-top: -500px;
+  
 }
 
 .comment {
@@ -521,7 +530,7 @@
   height: 100vh;
   background-color: #f4f4f4e2;
   margin-bottom: 30px;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .why-container h1 {
