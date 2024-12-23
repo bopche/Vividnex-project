@@ -203,7 +203,7 @@
 .par{
     color: #000;
     font-size: 18px;
-   margin-right: 730px;
+   margin-right: 690px;
    margin-top: 50px;
     
 }
@@ -256,13 +256,13 @@
     margin-top: 50px;
 }
 .down-heading{
-    margin-left: -770px;
+    margin-left: -700px;
     padding: 9px;
     color: #000;
 }
 
 .flying-arrow-container{
-    margin-left: 580px;
+    margin-left: 530px;
     margin-top:-220px;
 }
 .flying-arrow{
@@ -283,7 +283,7 @@
 }
 .number{
     float: right;
-    margin-right: 170px;
+    margin-right: 130px;
     margin-top: -330px;
     color: #000;
     font-size: 18px;
