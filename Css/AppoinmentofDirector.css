@@ -5,7 +5,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+  
 }
 
 
@@ -1769,26 +1769,10 @@ startupwala-featured-in-container
   margin-left: 50%;
   margin-top: -60px;
 }
-#question-answer-section-header
-{
-  background-color: white;
-}
 
-.panel {
-  padding: 30px;
-  display: none;
-  background-color: white;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  width: 70%;
-  margin-left: 222px;
-  border:#1A1A1A;
-  margin-bottom: 15px;
-  height: 110px;
-}
-#question-answer-section-header{
-  background-color:#fff;
-  margin-bottom: 20px;
+.faq-container {
+  width: 100%;
+  height: 115vh;
+  background-color: #f4f4f4e2;
   margin-top: 20px;
-  padding-bottom: 20px;
 }

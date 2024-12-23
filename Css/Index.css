@@ -212,8 +212,8 @@
 
 /* Default styles for larger screens */
 .form-container {
-  width: 27%;
-  height: 70vh;
+  width: 25%;
+  height: 66vh;
   background-color: #edecec;
   float: right;
   margin-top: -420px;
@@ -223,13 +223,13 @@
 }
 
 .form-container h2 {
-  font-size: 17px;
+  font-size: 15px;
   padding: 20px 43px;
   font-family: 'Poppins', sans-serif;
 }
 
 #inputfield1 {
-  padding: 13px 30px;
+  padding: 11px 23px;
   border: none;
   margin-left: 20px;
   position: absolute;
@@ -238,14 +238,14 @@
 
 #gender {
   border: none;
-  padding: 13px;
+  padding: 10px;
   margin-left: 22px;
   padding-right: 10px;
   font-size: 15px;
 }
 
 #inputfield2 {
-  padding: 13px 75px;
+  padding: 11px 64px;
   border: none;
   margin-left: 22px;
   margin-top: 20px;
