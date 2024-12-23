@@ -3,10 +3,6 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-
-
-
-
 }
 
 
@@ -179,6 +175,7 @@ body {
     padding-left: 12%;
     padding-top: 5%;
     font-family: 'Poppins', sans-serif;
+    color: #000;
 }
 
 .head h5 {
@@ -186,10 +183,11 @@ body {
     font-size: 15px;
     margin-top: 25px;
     font-family: 'Poppins', sans-serif;
+    color: #000;
 }
 
 .arrow-img {
-    margin-left: 37%;
+    margin-left: 40%;
     height: 35vh;
     width: 27%;
     margin-top: -50px;
@@ -257,88 +255,61 @@ body {
 }
 
 .form-container {
-    width: 27%;
-    height: 62vh;
+    width: 25%;
+    height: 66vh;
     background-color: #edecec;
     float: right;
     margin-top: -420px;
-    margin-right: 130px;
+    margin-right: 70px;
     border-radius: 10px;
     position: relative;
-}
-
-.form-container h2 {
-    font-size: 17px;
-    padding: 20px 70px;
-
+  }
+  
+  .form-container h2 {
+    font-size: 15px;
+    padding: 20px 43px;
     font-family: 'Poppins', sans-serif;
-}
-
-#inputfield1 {
-    padding: 13px 30px;
+  }
+  
+  #inputfield1 {
+    padding: 11px 23px;
     border: none;
     margin-left: 20px;
     position: absolute;
     box-shadow: none;
-}
-
-#gender {
+  }
+  
+  #gender {
     border: none;
-    padding: 13px;
-    margin-left: 48px;
+    padding: 10px;
+    margin-left: 22px;
     padding-right: 10px;
     font-size: 15px;
-}
-
-#inputfield2 {
-    padding: 13px 75px;
+  }
+  
+  #inputfield2 {
+    padding: 11px 64px;
     border: none;
-    margin-left: 48px;
+    margin-left: 22px;
     margin-top: 20px;
     box-shadow: none;
-}
-
-.btn1 {
+  }
+  
+  .btn1 {
     padding: 13px 95px;
     border: none;
-    margin-left: 48px;
+    margin-left: 13px;
     margin-top: 20px;
     box-shadow: none;
     background-color: rgb(255, 225, 56);
     cursor: pointer;
-}
-
-.btn1:hover {
+  }
+  
+  .btn1:hover {
     background-color: rgba(251, 223, 66, 0.866);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  }
+  
+  
 .container {
     text-align: center;
     padding: 20px;
