@@ -476,12 +476,18 @@ width:100%;
 text-align: center;
 }
 .content33{
-    display: flex;
-    margin-left: 100px;
+  display: flex;
+width: 69%;
+margin-left: auto;
+margin-right: auto;
+
 }
 .content33-1{
-    display: flex;
-    margin-left: 110px;
+  display: flex;
+  width: 70%;
+margin-left: auto;
+margin-right: auto;
+padding-right: 15px;
 }
 
 .img10000{
