@@ -1,498 +1,503 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
 }
 
 .navbar {
-    background-color: #f4f4f4e2;
-   
+  background-color: #f4f4f4e2;
+ 
 
+
+
+}
+
+.nav-logo {
+  width: 15%;
+  margin-left: 40px;
+  padding-top: 20px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list li {
+  margin: 0 15px;
+}
+
+.nav-list a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 10px 10px;
+  display: block;
+}
+
+.dropdown {
+  position: relative;
+
+}
+
+
+.dropbtn {
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-size: 13px;
+  margin-top: -45px;
+  float: right;
+  font-family: 'Roboto', sans-serif;
+ 
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  width: 345px;
+  padding: 15px 10px;
+  z-index: 1;
+  margin-top: 7px;
+
+}
+
+.dropdown-content a {
+  padding: 12px 15px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  display: block;
+  font-size: 12px;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+.verticalline {
+  border-left: 1px solid black;
+  height: 160px;
+  float: left;
+  margin-top: -160px;
+  margin-left: 53%;
+}
+
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  width: 380px;
+  padding: 10px;
+  z-index: 1;
+  margin-top: 10px;
+
+}
+
+.dropdown-content1 a {
+  padding: 12px 16px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  display: block;
+  font-size: 12px;
+}
+
+
+.dropdown:hover .dropdown-content1 {
+  display: block;
+}
+
+
+
+.verticalline1 {
+  border-left: 1px solid black;
+  height: 300px;
+  float: left;
+  margin-top: -270px;
+  margin-left: 52%;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  width: 200px;
+  padding: 10px;
+  z-index: 1;
+ margin-top: 12px;
+
+}
+
+.dropdown-content2 a {
+  padding: 12px 16px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  display: block;
+  font-size: 12px;
+}
+
+
+.dropdown:hover .dropdown-content2 {
+  display: block;
+}
+
+.addeditems {
+  margin-top: -20px;
+  float: right;
+  margin-right: -450px;
+  padding-left: 70px;
+  padding-top: 10px;
+  
+}
+
+.add-item {
+  font-size: 11px;
+  padding: 0px;
+  margin-top: -45px;
+  font-family: 'Roboto', sans-serif;
   
   
-  }
-  
-  .nav-logo {
-    width: 15%;
-    margin-left: 40px;
-    padding-top: 20px;
-  }
-  
-  .nav-list {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .nav-list li {
-    margin: 0 15px;
-  }
-  
-  .nav-list a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    padding: 10px 10px;
-    display: block;
-  }
-  
-  .dropdown {
-    position: relative;
-  
-  }
-  
-  
-  .dropbtn {
-    color: white;
-    text-decoration: none;
-    display: block;
-    font-size: 13px;
-    margin-top: -55px;
-    float: right;
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #ffffff;
-    width: 345px;
-    padding: 15px 10px;
-    z-index: 1;
-    margin-top: -4px;
-  
-  }
-  
-  .dropdown-content a {
-    padding: 12px 15px;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    display: block;
-    font-size: 12px;
-  }
-  
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  
-  
-  
-  .verticalline {
-    border-left: 1px solid black;
-    height: 160px;
-    float: left;
-    margin-top: -160px;
-    margin-left: 53%;
-  }
-  
-  
-  .dropdown-content1 {
-    display: none;
-    position: absolute;
-    background-color: #ffffff;
-    width: 380px;
-    padding: 10px;
-    z-index: 1;
-    margin-top: 10px;
-  
-  }
-  
-  .dropdown-content1 a {
-    padding: 12px 16px;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    display: block;
-    font-size: 12px;
-  }
-  
-  
-  .dropdown:hover .dropdown-content1 {
-    display: block;
-  }
-  
-  
-  
-  .verticalline1 {
-    border-left: 1px solid black;
-    height: 300px;
-    float: left;
-    margin-top: -270px;
-    margin-left: 52%;
-  }
-  
-  .dropdown-content2 {
-    display: none;
-    position: absolute;
-    background-color: #ffffff;
-    width: 200px;
-    padding: 10px;
-    z-index: 1;
-    margin-top: -4px;
-  
-  }
-  
-  .dropdown-content2 a {
-    padding: 12px 16px;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    display: block;
-    font-size: 12px;
-  }
-  
-  
-  .dropdown:hover .dropdown-content2 {
-    display: block;
-  }
-  
-  .addeditems {
-    margin-top: -30px;
-    float: right;
-    margin-right: -450px;
-    padding-left: 70px;
-  }
-  
-  .add-item {
-    font-size: 11px;
-    padding: 0px;
-    margin-top: -45px;
-    font-family: 'Roboto', sans-serif;
-  }
+}
 
 
 .slider-img {
-    width: 100%;
-   
-    display: block;
-    margin: 0 auto;
-    margin-top: -20px;
+  width: 100%;
+ 
+  display: block;
+  margin: 0 auto;
+  margin-top: -20px;
 }
 
 .container-0 {
-    width: 100%;
-    margin: 0 auto;
-   
-   
+  width: 100%;
+  margin: 0 auto;
+ 
+ 
 }
 
 .main-content {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    padding: 0 20px;
-   
-    
-   
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 0 20px;
+ 
+  
+ 
 }
 
 .left-section {
-    flex: 3;
-   
-    width: 90%;
-    max-width: 800px;
-    margin-left: 170px;
-    margin-top: 27px;
+  flex: 3;
+ 
+  width: 90%;
+  max-width: 800px;
+  margin-left: 170px;
+  margin-top: 27px;
 }
 
 .card {
-    display: flex;
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    margin-bottom: 20px;
-    padding: 15px;
-   
+  display: flex;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding: 15px;
+ 
 }
 
 .card img {
-    width: 270px;
-    height: 180px;
-    border-radius: 5px;
-    margin-right: 15px;
-    flex-shrink: 0;
+  width: 270px;
+  height: 180px;
+  border-radius: 5px;
+  margin-right: 15px;
+  flex-shrink: 0;
 }
 
 .card-content {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 .card-content h2 {
-    font-size: 1.2rem;
-    color: #333;
-    margin: 0 0 10px;
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0 0 10px;
 }
 
 .card-content p {
-    color: #555;
-    font-size: 0.9rem;
-    margin: 0 0 15px;
+  color: #555;
+  font-size: 0.9rem;
+  margin: 0 0 15px;
 }
 
 .card-content .details {
-    font-size: 0.8rem;
-    color: #999;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-   
-    cursor: pointer;
+  font-size: 0.8rem;
+  color: #999;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+ 
+  cursor: pointer;
 
 
 }
 
 .details .icon {
-    width: 29px;
-    height: 29px;
-    background-color: #0c0b0b;
-    border-radius: 50%;
-   
+  width: 29px;
+  height: 29px;
+  background-color: #0c0b0b;
+  border-radius: 50%;
+ 
 }
 
 .right-section {
-    flex: 1;
-    margin-left: 20px;
-    text-align: center;
-    margin-top: 20px;
-   
+  flex: 1;
+  margin-left: 20px;
+  text-align: center;
+  margin-top: 20px;
+ 
 }
 
 .right-section img {
-    width: 100%;
-    max-width: 300px;
-    border-radius: 18px;
-    cursor: pointer;
-   
-    
-   
+  width: 100%;
+  max-width: 300px;
+  border-radius: 18px;
+  cursor: pointer;
+ 
+  
+ 
 }
 
 @media screen and (min-width: 901px) {
-    #footer-mobile-responsive {
-      display: none;
-    }
-  
-    #footer {
-      display: flex;
-      flex-wrap: nowrap;
-      justify-content: space-around;
-      background-color: #edecec;
-      color: rgb(0, 0, 0);
-      padding-left: 30px;
-      padding-top: 20px;
-      padding-bottom: 10px;
-      
-    }
-  
-    .footer-title::after {
-      margin-top: 10px;
-      content: '';
-      background: white;
-      width: 25px;
-      height: 3px;
-      display: block;
-      margin-left: 7%;
-    }
-  
-    #startupwala-compnay-info-part {
-  
-      width: 15%;
-      text-align: left;
-    }
-  
-    .logo-2 {
-      width: 160px;
-    }
-  
-    .footer-title {
-      padding-bottom: 20px;
-      font-family: 'Poppins', sans-serif;
-      font-size: 20px;
-    }
-  
-    #footer p {
-  
-      font-size: 13px;
-      line-height: 29px;
-    }
-  
-    #startupwala-info-in-footer {
-      line-height: 24px;
-      margin-right: 15px;
-      font-family: 'Roboto', sans-serif;
-    }
-  
-    #google-play-logo {
-      margin-top: 20px;
-    }
-  
-    #footer a {
-      text-decoration: none;
-      color: rgb(0, 0, 0);
-      font-size: 12px;
-      font-family: 'Roboto', sans-serif;
-    }
+  #footer-mobile-responsive {
+    display: none;
   }
-  
-  @media screen and (max-width: 1250px) {
-    #startupwala-compnay-info-part img {
-      width: 130px;
-    }
-  
+
+  #footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: #edecec;
+    color: rgb(0, 0, 0);
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
   }
-  
-  
-  
-  @media screen and (max-width: 900px) {
-    #footer {
-      display: none;
-    }
-  
-    #footer-mobile-responsive {
-      background-color: #4D4D4D;
-      color: rgb(0, 0, 0);
-      text-align: center;
-      margin-top: -3px;
-    }
-  
-    #startupwala-logo-footer {
-      width: 200px;
-      padding-top: 20px;
-      padding-bottom: 5px;
-    }
-  
-    #footer-mobile-responsive p {
-      padding-bottom: 15px;
-      font-size: 12px;
-    }
-  
-    #google-play-logo {
-      width: 110px;
-    }
-  
-    #socail-img img {
-      width: 15px;
-      height: 15px;
-      margin-right: 10px;
-    }
-  
-    #socail-img {
-      padding-bottom: 20px;
-    }
-  
-    #footer-mobile-responsive a {
-      text-decoration: none;
-      color: rgb(0, 0, 0);
-    }
+
+  .footer-title::after {
+    margin-top: 10px;
+    content: '';
+    background: white;
+    width: 25px;
+    height: 3px;
+    display: block;
+    margin-left: 7%;
   }
-  
-  
-  
-  @media screen and (min-width: 901px) {
-  
-    #footer-navigation-container-mobile {
-      display: none;
-    }
-  
-    #footer-navigation-container {
-      background-color: #a1a1a1;
-    }
-  
-    #footer-navigation {
-      color: rgb(0, 0, 0);
-      margin-left: 3%;
-      margin-right: 3%;
-      padding-top: 20px;
-      padding-bottom: 20px;
-    }
-  
-    #policy-disclaimer {
-      float: right;
-    }
-  
-    #footer-navigation hr {
-      display: block;
-      margin-top: 0.5em;
-      margin-bottom: 0.65em;
-      border-style: inset;
-      border-width: 0.5px;
-    }
-  
-    #footer-navigation img {
-      width: 15px;
-      height: 15px;
-    }
-  
-    #socail {
-      float: right;
-      padding-right: 15px;
-      font-size: 13px;
-      line-height: 16px;
-    }
-  
-    #socail a {
-      text-decoration: none;
-      color: rgb(0, 0, 0);
-      margin-right: 10px;
-    }
+
+  #startupwala-compnay-info-part {
+
+    width: 15%;
+    text-align: left;
   }
-  
-  @media screen and (max-width: 900px) {
-    #footer-navigation-container {
-      display: none;
-    }
-  
-    #footer-navigation-container-mobile {
-      background-color: #333333;
-    }
-  
-    #footer-navigation-mobile {
-      color: white;
-      text-align: center;
-      font-size: 10px;
-      padding-bottom: 15px;
-      padding-top: 15px;
-    }
+
+  .logo-2 {
+    width: 160px;
   }
-  
-  #footer-lower-menu p {
-    margin-top: -3px;
-    float: left;
-    font-size: 14px;
-    margin-right: 17px;
-    margin-bottom: 3px;
+
+  .footer-title {
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+  }
+
+  #footer p {
+
+    font-size: 13px;
+    line-height: 29px;
+  }
+
+  #startupwala-info-in-footer {
+    line-height: 24px;
+    margin-right: 15px;
     font-family: 'Roboto', sans-serif;
   }
-  
-  .loginCopy {
-    font-size: 13px;
-    line-height: 16px;
+
+  #google-play-logo {
+    margin-top: 20px;
   }
-  
-  #desktop-footer-bottom {
+
+  #footer a {
+    text-decoration: none;
     color: rgb(0, 0, 0);
-    padding: 15px 0px;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.005em;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
   }
-  
-  #socail>img {
-    margin: 0 12px;
+}
+
+@media screen and (max-width: 1250px) {
+  #startupwala-compnay-info-part img {
+    width: 130px;
   }
-  
-  #footer-navigation a,
-  #footer-navigation-container-mobile a {
+
+}
+
+
+
+@media screen and (max-width: 900px) {
+  #footer {
+    display: none;
+  }
+
+  #footer-mobile-responsive {
+    background-color: #4D4D4D;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: -3px;
+  }
+
+  #startupwala-logo-footer {
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+
+  #footer-mobile-responsive p {
+    padding-bottom: 15px;
+    font-size: 12px;
+  }
+
+  #google-play-logo {
+    width: 110px;
+  }
+
+  #socail-img img {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+  }
+
+  #socail-img {
+    padding-bottom: 20px;
+  }
+
+  #footer-mobile-responsive a {
     text-decoration: none;
     color: rgb(0, 0, 0);
   }
-  
-  #content-protection-dmca-batch img {
-    margin-left: 10px;
-    display: inline-block;
-    width: 90px;
-    height: 20px;
+}
+
+
+
+@media screen and (min-width: 901px) {
+
+  #footer-navigation-container-mobile {
+    display: none;
   }
+
+  #footer-navigation-container {
+    background-color: #a1a1a1;
+  }
+
+  #footer-navigation {
+    color: rgb(0, 0, 0);
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #policy-disclaimer {
+    float: right;
+  }
+
+  #footer-navigation hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.65em;
+    border-style: inset;
+    border-width: 0.5px;
+  }
+
+  #footer-navigation img {
+    width: 15px;
+    height: 15px;
+  }
+
+  #socail {
+    float: right;
+    padding-right: 15px;
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  #socail a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #footer-navigation-container {
+    display: none;
+  }
+
+  #footer-navigation-container-mobile {
+    background-color: #333333;
+  }
+
+  #footer-navigation-mobile {
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+}
+
+#footer-lower-menu p {
+  margin-top: -3px;
+  float: left;
+  font-size: 14px;
+  margin-right: 17px;
+  margin-bottom: 3px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.loginCopy {
+  font-size: 13px;
+  line-height: 16px;
+}
+
+#desktop-footer-bottom {
+  color: rgb(0, 0, 0);
+  padding: 15px 0px;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.005em;
+}
+
+#socail>img {
+  margin: 0 12px;
+}
+
+#footer-navigation a,
+#footer-navigation-container-mobile a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+#content-protection-dmca-batch img {
+  margin-left: 10px;
+  display: inline-block;
+  width: 90px;
+  height: 20px;
+}
