@@ -176,13 +176,13 @@
 .container{
     height: 87vh;
     width: 100%;
-    background-color:#FFD712;
+    background-color:rgb(251, 223, 66);
     padding: 30px 0px;
 }
 .heading{
     text-align: center;
     justify-content: center;
-    color: #fff;
+    color: #000;
     padding: 40px;
   
 }

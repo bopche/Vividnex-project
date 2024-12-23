@@ -175,7 +175,7 @@
     margin-left: 35px;
 }
 .upper-container{
-    background-color: #FFD712;
+    background-color: rgb(251, 223, 66);
     width: 100%;
     height: 85vh;
     padding: 20px;
@@ -183,25 +183,25 @@
 .upper-line{
     padding-top: 60px;
     margin-left: 170px;
-    color: #fff;
+    color: #000;
     font-size: 35px;
     
 }
 .first-line{
     padding-top: 4px;
     margin-left: 184px;
-    color: #fff;
+    color: #000;
     font-size: 35px;
 }
 .container1{
-    background-color: rgb(240, 204, 2);
+    background-color:yellow;
     width: 100%;
     height: 9vh;
     justify-content: space-around;
    
 }
 .par{
-    color: #fff;
+    color: #000;
     font-size: 18px;
    margin-right: 730px;
    margin-top: 50px;
@@ -210,7 +210,7 @@
 
 
 .head-container{
-    color: #FFD712;
+    color: #000;
     width: 100%;
     background-color: #fff;
     text-align: center;
@@ -222,7 +222,7 @@
 .container100{
     height: 25vh;
     width: 27%;
-    background-color:#FFD712;
+    background-color:rgb(251, 223, 66);
     box-shadow: 1px 1px 1px 1.9px rgb(250, 248, 248);
     margin-top: 15px;
     margin-left: 170px;
@@ -236,7 +236,7 @@
     
 }
 .img2{
-    color: #fff;
+    color: #000;
     background-color: #fff;
     border-radius: 40px;
     height: 6vh;
@@ -245,20 +245,20 @@
 }
 .line1{
     margin-left: 33px;
-    color: #fff;
+    color: #000;
 }
 .line1 p{
     margin-right: 33px;
-    color: #fff;
+    color: #000;
 }
 .plus{
-    color: #fff;
+    color: #000;
     margin-top: 50px;
 }
 .down-heading{
     margin-left: -770px;
     padding: 9px;
-    color: #fff;
+    color: #000;
 }
 
 .flying-arrow-container{
@@ -285,7 +285,7 @@
     float: right;
     margin-right: 170px;
     margin-top: -330px;
-    color: #fff;
+    color: #000;
     font-size: 18px;
     padding-top: 10px;
 }
@@ -346,7 +346,7 @@ button{
     text-align: center;
     margin: 10px;
     background-color: #fda700;
-    color: #fff;
+    color: #000;
     text-align: center;
     cursor: pointer;
     border: 1px solid transparent;
@@ -385,7 +385,7 @@ margin-top: 400px;
 .review{
    margin-right: 315px;
     float: right;
-    color: #fff;
+    color: #000;
     justify-content: center;
     padding: 10px;
 }
@@ -421,7 +421,7 @@ margin-top: 400px;
 }
 .block2{
     margin: 10px;
-    color: #fff;
+    color: #000;
 }
 .block4{
 height: 52vh;
@@ -735,3 +735,230 @@ text-align: center;
 .star-no{
     color: #fda700;
 }
+
+@media screen and (min-width: 901px) {
+    #footer-mobile-responsive {
+      display: none;
+    }
+  
+    #footer {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+      background-color: #edecec;
+      color: rgb(0, 0, 0);
+      padding-left: 30px;
+      padding-top: 40px;
+      padding-bottom: 50px;
+      margin-top: -3px;
+    }
+  
+    .footer-title::after {
+      margin-top: 10px;
+      content: '';
+      background: white;
+      width: 25px;
+      height: 3px;
+      display: block;
+      margin-left: 7%;
+    }
+  
+    #startupwala-compnay-info-part {
+  
+      width: 15%;
+      text-align: left;
+    }
+  
+    .logo-2 {
+      width: 160px;
+    }
+  
+    .footer-title {
+      padding-bottom: 20px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 20px;
+    }
+  
+    #footer p {
+  
+      font-size: 13px;
+      line-height: 29px;
+    }
+  
+    #startupwala-info-in-footer {
+      line-height: 24px;
+      margin-right: 15px;
+      font-family: 'Roboto', sans-serif;
+    }
+  
+    #google-play-logo {
+      margin-top: 20px;
+    }
+  
+    #footer a {
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      font-size: 12px;
+      font-family: 'Roboto', sans-serif;
+    }
+  }
+  
+  @media screen and (max-width: 1250px) {
+    #startupwala-compnay-info-part img {
+      width: 130px;
+    }
+  
+  }
+  
+  
+  
+  @media screen and (max-width: 900px) {
+    #footer {
+      display: none;
+    }
+  
+    #footer-mobile-responsive {
+      background-color: #4D4D4D;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      margin-top: -3px;
+    }
+  
+    #startupwala-logo-footer {
+      width: 200px;
+      padding-top: 20px;
+      padding-bottom: 5px;
+    }
+  
+    #footer-mobile-responsive p {
+      padding-bottom: 15px;
+      font-size: 12px;
+    }
+  
+    #google-play-logo {
+      width: 110px;
+    }
+  
+    #socail-img img {
+      width: 15px;
+      height: 15px;
+      margin-right: 10px;
+    }
+  
+    #socail-img {
+      padding-bottom: 20px;
+    }
+  
+    #footer-mobile-responsive a {
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+    }
+  }
+  
+  
+  
+  @media screen and (min-width: 901px) {
+  
+    #footer-navigation-container-mobile {
+      display: none;
+    }
+  
+    #footer-navigation-container {
+      background-color: #a1a1a1;
+    }
+  
+    #footer-navigation {
+      color: rgb(0, 0, 0);
+      margin-left: 3%;
+      margin-right: 3%;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  
+    #policy-disclaimer {
+      float: right;
+    }
+  
+    #footer-navigation hr {
+      display: block;
+      margin-top: 0.5em;
+      margin-bottom: 0.65em;
+      border-style: inset;
+      border-width: 0.5px;
+    }
+  
+    #footer-navigation img {
+      width: 15px;
+      height: 15px;
+    }
+  
+    #socail {
+      float: right;
+      padding-right: 15px;
+      font-size: 13px;
+      line-height: 16px;
+    }
+  
+    #socail a {
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      margin-right: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    #footer-navigation-container {
+      display: none;
+    }
+  
+    #footer-navigation-container-mobile {
+      background-color: #333333;
+    }
+  
+    #footer-navigation-mobile {
+      color: white;
+      text-align: center;
+      font-size: 10px;
+      padding-bottom: 15px;
+      padding-top: 15px;
+    }
+  }
+  
+  #footer-lower-menu p {
+    margin-top: -3px;
+    float: left;
+    font-size: 14px;
+    margin-right: 17px;
+    margin-bottom: 3px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .loginCopy {
+    font-size: 13px;
+    line-height: 16px;
+  }
+  
+  #desktop-footer-bottom {
+    color: rgb(0, 0, 0);
+    padding: 15px 0px;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+  }
+  
+  #socail>img {
+    margin: 0 12px;
+  }
+  
+  #footer-navigation a,
+  #footer-navigation-container-mobile a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+  #content-protection-dmca-batch img {
+    margin-left: 10px;
+    display: inline-block;
+    width: 90px;
+    height: 20px;
+  }

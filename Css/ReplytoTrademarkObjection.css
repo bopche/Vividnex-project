@@ -176,7 +176,7 @@
     margin-left: 35px;
 }
 .upper-container{
-    background-color: #FFD712;
+    background-color: rgb(251, 223, 66);
     width: 100%;
     height: 85vh;
     padding: 20px;
@@ -184,30 +184,30 @@
 .upper-line{
     padding-top: 60px;
     margin-left: 170px;
-    color: #fff;
+    color: #000;
     font-size: 35px;
     
 }
 .mid-line{
     margin-left: 250px;
-    color: #fff;
+    color: #000;
 }
 .first-line{
     padding-top: 4px;
     margin-left: 230px;
-    color: #fff;
+    color: #000;
     font-size: 35px;
 }
 
 .container1{
-    background-color:rgb(240, 204, 2);
+    background-color:yellow;
     width: 100%;
     height: 9vh;
     justify-content: space-around;
    
 }
 .par{
-    color: #fff;
+    color: #000;
     font-size: 18px;
    margin-left: 170px;
    margin-top: 50px;
@@ -215,7 +215,7 @@
 }
 
 .head-container{
-    color: #FFD712;
+    color: #000;
     width: 100%;
     background-color: #fff;
     text-align: center;
@@ -227,7 +227,7 @@
 .container100{
     height: 25vh;
     width: 30%;
-    background-color:#FFD712;
+    background-color:rgb(251, 223, 66);
     box-shadow: 1px 1px 1px 1.9px rgb(250, 248, 248);
     margin-top: 15px;
     margin-left:150px;
@@ -249,17 +249,17 @@
 }
 .line1 p{
     margin-left: 43px;
-    color: #fff;
+    color: #000;
     margin-top: 8px;
 }
 .plus{
-    color: #fff;
+    color: #000;
     margin-top: 50px;
 }
 .down-heading{
     margin-left: 210px;
     padding: 9px;
-    color: #fff;
+    color: #000;
 }
 
 .flying-arrow-container{
@@ -287,7 +287,7 @@
     float: right;
     margin-right: 170px;
     margin-top: -330px;
-    color: #fff;
+    color: #000;
     font-size: 18px;
     padding-top: 10px;
 }
@@ -348,7 +348,7 @@ button{
     text-align: center;
     margin: 10px;
     background-color: #fda700;
-    color: #fff;
+    color: #000;
     text-align: center;
     cursor: pointer;
     border: 1px solid transparent;
@@ -370,7 +370,7 @@ margin-top: 400px;
 .review{
     margin-right:320px;
     float: right;
-    color: #fff;
+    color: #000;
     justify-content: center;
     padding: 10px;
 }
@@ -406,7 +406,7 @@ margin-top: 400px;
 }
 .block2{
     margin: 10px;
-    color: #fff;
+    color: #000;
 }
 .block4{
 height: 52vh;
