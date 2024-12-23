@@ -653,7 +653,7 @@ text-align: center;
      margin: 40px;
   
  }
-
+ 
  @media screen and (min-width: 901px) {
     #footer-mobile-responsive {
       display: none;
