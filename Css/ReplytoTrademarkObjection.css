@@ -480,17 +480,18 @@ text-align: center;
 .content33{
   display: flex;
 width: 69%;
-margin-left: auto;
+margin-left: 205px;
 margin-right: auto;
 
 }
 .content33-1{
   display: flex;
   width: 70%;
-margin-left: auto;
+margin-left: 200px;
 margin-right: auto;
 padding-right: 15px;
 }
+
 .img10000{
     background-color: #fff;
     border-radius: 70px;
@@ -601,16 +602,22 @@ padding-right: 15px;
         margin: 40px 20px;
         text-align: center;
     }
+
     .img555{
-        border-radius: 80px;
-        margin: 0px 30px;
+      height: 16vh;
+      width: auto;
+      border-radius: 80px;
+        margin: 0px 20px;
     }
+
+    .another-star{
+      margin-left: 35px;
+  }
+   
     .another-star-container{
         display: flex;
     }
-    .another-star{
-        margin-left: 48px;
-    }
+    
     .star-no{
         color: #fda700;
     }
