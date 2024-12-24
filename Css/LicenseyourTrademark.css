@@ -221,7 +221,7 @@
 }
 .container100{
     height: 25vh;
-    width: 25%;
+    width: 28%;
     background-color:rgb(251, 223, 66);
     box-shadow: 1px 1px 1px 1.9px rgb(250, 248, 248);
     margin-top: 15px;
@@ -280,7 +280,7 @@
 }
 .number{
     float: right;
-    margin-right: 170px;
+    margin-right: 130px;
     margin-top: -330px;
     color: #000;
     font-size: 18px;
@@ -463,7 +463,7 @@ width:100%;
     text-align: center;
 }
 .block33{
- height: 90vh;
+ height: 110vh;
  width: 100%;
  background-color: #F4F4F4;
  padding: 40px;
@@ -511,7 +511,7 @@ padding-right: 15px;
    
     }
     .block44{
-        height: 95vh;
+        height: 115vh;
         width: 100%;
         padding: 20px;
         background-color:#F4F4F4;
